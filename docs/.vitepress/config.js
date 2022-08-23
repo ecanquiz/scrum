@@ -21,7 +21,7 @@ export default {
         ]
         }
         ,{
-        text: '3 Pilares',        
+        text: 'Pilares',        
         path: '/pillars/',      // optional, link of the title, which should be an absolute path and must exist        
         collapsible: true,
         collapsed: true, 
@@ -43,9 +43,9 @@ export default {
           { text: 'Equipo de Desarrollo', link: '/roles/development-team' },
           { text: 'Equipos de Alto Rendimiento', link: '/roles/high-performance-teams' },
           { text: 'Líder de Desarrollo', link: '/roles/development-leader' },          
-          { text: 'Equipo de Pruebas', link: '/roles/continuous-tests' },
-          { text: 'DB Admin', link: '/roles/refactoring' },
-          { text: 'Director de Informática', link: '/roles/pair-programming' },
+          { text: 'Equipo de Pruebas', link: '/roles/test-team' },
+          { text: 'DB Admin', link: '/roles/db-admin' },
+          { text: 'Director de Informática', link: '/roles/it-director' },
         ]
       },{
         text: 'Artefactos',
