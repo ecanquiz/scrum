@@ -7,12 +7,12 @@ export default {
       { text: 'Inicio', link: '/' },      
       { text: 'Comenzar', link: '/start/intro' },
       { text: 'CaribesTIC', link: 'https://caribestic.github.io/' },
-      { text: 'GitHub', link: 'https://github.com/CaribesTIC/xp' }      
+      { text: 'GitHub', link: 'https://github.com/CaribesTIC/scrum' }      
     ],
     sidebar: [
       {
         text: 'Comenzar',   // required
-        path: '/start/',      // optional, link of the title, which should be an absolute path and must exist        
+        path: '/start/',    // optional, link of the title, which should be an absolute path and must exist        
         sidebarDepth: 1,    // optional, defaults to 1
         collapsible: true,
         collapsed: false, 
@@ -53,8 +53,8 @@ export default {
         collapsible: true,
         collapsed: true,      
         items: [
-          { text: 'Garantías de resultados', link: '/artifacts/intro' },
-          { text: 'Historia de Usuario', link: '/artifacts/planning' },
+          { text: 'Artefactos (herramientas)', link: '/artifacts/intro' },
+          { text: 'Historia de Usuario', link: '/artifacts/user-stories' },
           { text: 'Historias Técnicas', link: '/artifacts/short-releases' },
           { text: 'Pila del Producto', link: '/artifacts/metaphorical-system' },
           { text: 'Pila del Sprint', link: '/artifacts/simple-design' },

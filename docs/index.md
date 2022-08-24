@@ -15,17 +15,20 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/CaribesTIC/scrum
-      
 
 features:
   - title: Pilares
-    details: El motor de XP se basa en cinco valores principales, los cuales aplicados de manera simultánea, impulsan la esencia colaborativa del equipo.
+    details: Los Pilares de Scrum se basan en el empirismo que básicamente consiste en aprender y mejorar de los errores pasados.
   - title: Roles
-    details: El motor de XP se basa en cinco valores principales, los cuales aplicados de manera simultánea, impulsan la esencia colaborativa del equipo.
+    details: En Scrum los equipos son auto-organizados, con un margen de maniobra suficiente para tomar las decisiones que consideren oportunas.
   - title: Artefactos
-    details: El motor de XP también tiene un compendio de 12 Buenas Prácticas, que podrían ser nombradas como los 12 Hábitos.
+    details: Scrum, propone artefactos para mantener organizados nuestros proyectos. Estos ayudan a planificar y revisar cada uno de los Sprints.
   - title: Eventos
-    details: El motor de XP también tiene un compendio de 12 Buenas Prácticas, que podrían ser nombradas como los 12 Hábitos.
+    details: El equipo planifica el Sprint, monitoriza la evolución en reuniones breves diarias y al finalizar cada Sprint se revisa y evalua el incremento en equipo.
 footer: MIT Licensed | Copyleft © 2022-present Ernesto Canquiz
 ---
+
+
+
+
 

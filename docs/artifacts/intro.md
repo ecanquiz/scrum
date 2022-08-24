@@ -1,18 +1,42 @@
-# Prácticas que garantizan resultados
+# Artefactos (herramientas)
 
-Además de los 5 Valores que podríamos denominar como el Motor XP, también tenemos un compendio de 12 Buenas Prácticas, que podrían ser nombradas como los Hábitos del Desarrollo eXtremo. 
+Scrum, propone herramientas o "artefactos" para mantener organizados nuestros proyectos. Estos artefactos, ayudan a planificar y revisar cada uno de los Sprints, aportando medios ineludibles para efectuar cada una de las ceremonias que veremos más adelante. Ahora, nos concentraremos principalmente, en las Historias de Usuario, las Historias Técnicas, la Pila del Producto, la Pila del Sprint, el Incremento y el Tablero de Tareas, para luego hablar brevemente sobre los Gráfico de Avances.
 
->Son de fácil compresión y aplicadas en conjunto, garantizan un mejor resultado del proyecto:
+- Historias de Usuario: consiste en la descripción del sistema desde el punto de vista del usuario.
+- Historias Técnicas: cosas que deben hacerse pero que no son un entregable ni están directamente relacionadas con ninguna historia de usuario específica, y no son de valor inmediato para el Dueño del Producto.
+- Pila del Producto: lista priorizada de todo lo que requiere el software según los requisitos (historias) del usuario, que a partir de la visión inicial del producto crece y evoluciona durante el desarrollo.
+- Pila del Sprint: lista de las tareas necesarias que debe realizar el equipo durante el Sprint, para convertir parte de la Pila del Producto en el
+incremento previsto como funcionalidad del software.
+- Incremento: es resultado obtenido de cada Sprint. Es la parte del producto realizada en un Sprint potencialmente entregable: terminada y probada.
+- Tablero de Tareas: permite la transparencia de los ítems de trabajos pendientes, en curso y terminados de un mismo Sprint.
+- Gráfico de Avance: Otro artefacto propio del modelo estándar que el equipo actualiza a diario para comprobar el avance.
 
-1. [**La Planificación** _(Planning)_](../practices/planning.html)
-2. [**Versiones Pequeñas** _(Short Releases)_](../practices/short-releases.html)
-3. [**Sistema Metafórico** _(Metaphorical System)_](../practices/metaphorical-system.html)
-4. [**Diseño Simple** _(Simple Design)_](../practices/simple-design.html)
-5. [**Pruebas Continuas** _(Continuous Tests)_](../practices/continuous-tests.html)
-6. [**Refactorización** _(Refactoring)_](../practices/refactoring.html)
-7. [**Programación en Parejas** _(Pair Programming)_](../practices/pair-programming.html)
-8. [**Propiedad Colectiva** _(Collective Ownership)_](../practices/collective-ownership.html)
-9. [**Integración Continua** _(Continuous Integration)_](../practices/continuous-integration.html)
-10. [**Semanas de 40 Horas** _(40 Hour Week)_](../practices/40-hour-week.html)
-11. [**Cliente en su Sitio** _(On-Site Customer)_](../practices/on-site-customer.html)
-12. [**Estándares de Codificación** _(Coding Standards)_](../practices/coding-standards.html)
+Antes de entrar en detalle sobre los artefactos mencionados, aclaremos qué significado tienen los requisitos en el desarrollo ágil.
+
+## Reqisitos
+
+La ingeniería del software clásica diferencia dos ámbitos de requisitos:
+
+- **Requisitos del Sistema**
+- **Pila del Producto**
+
+Los **Requisitos del Sistema** forman parte del proceso de adquisición, y por tanto es responsabilidad del usuario la definición del problema y de las funcionalidades que debe aportar la solución. No importa si se trata de gestión tradicional o ágil. La **Pila del Producto** es responsabilidad del usuario, aunque se aborda de forma diferente en cada caso.
+
+- En los proyectos predictivos, los **Requisitos del Sistema** suelen especificarse en documentos formales; mientras que en los proyectos ágiles toman la forma de **Pila del Producto** o lista de Historias de Usuario.
+- Los **Requisitos del Sistema** formales se especifican de forma completa y cerrada al inicio del proyecto; mientras que una **Pila del Producto** es un documento vivo, que evoluciona durante el desarrollo.
+- Los **Requisitos del Sistema** los desarrolla una persona o equipo especializado en ingeniería de requisitos a través del proceso de licitación con el usuario; en el desarrollo ágil la visión del usuario es conocida por todo el equipo (el usuario colabora con el equipo) y la **Pila del Producto** se realiza y evoluciona de forma continua con los aportes de todos.
+
+![intro](./img/intro1.jpg)
+
+Scrum emplea dos formatos para registrar los requisitos:
+
+- **Pila del Producto** _(Product Backlog)_
+- **Pila del Sprint** _(Sprint Backlog)_
+
+La **Pila del Producto** registra los requisitos vistos desde el punto de vista del usuario. Un enfoque similar al de los requisitos del sistema de la ingeniería tradicional. Está formada por la lista de funcionalidades o "Historias de Usuario" que desea obtener el Dueño del Producto, ordenadas por la importancia (prioridad) que el mismo le otorga a cada una.
+
+La **Pila del Sprint** está formada por la lista de tareas en las que se descomponen las Historias de Usuario que se van a llevar a cabo en el Sprint. En el desarrollo y mantenimiento de la Pila del Producto lo relevante no es tanto el formato, sino que:
+
+- Las funcionalidades que incluye den forma a una visión del producto definida y conocida por todo el equipo.
+- Las funcionalidades estén individualmente definidas, priorizadas y preestimadas.
+- Las funcionalidades estén realizada y gestionada por el usuario principal (Dueño del Producto).
