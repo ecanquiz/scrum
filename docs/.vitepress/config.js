@@ -55,7 +55,7 @@ export default {
         items: [
           { text: 'Artefactos (herramientas)', link: '/artifacts/intro' },
           { text: 'Historia de Usuario', link: '/artifacts/user-stories' },
-          { text: 'Historias Técnicas', link: '/artifacts/short-releases' },
+          { text: 'Historias Técnicas', link: '/artifacts/technical-stories' },
           { text: 'Pila del Producto', link: '/artifacts/metaphorical-system' },
           { text: 'Pila del Sprint', link: '/artifacts/simple-design' },
           { text: 'Incremento', link: '/artifacts/continuous-tests' } 
