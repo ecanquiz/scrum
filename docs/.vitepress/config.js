@@ -57,8 +57,8 @@ export default {
           { text: 'Historia de Usuario', link: '/artifacts/user-stories' },
           { text: 'Historias Técnicas', link: '/artifacts/technical-stories' },
           { text: 'Pila del Producto', link: '/artifacts/product-backlog' },
-          { text: 'Pila del Sprint', link: '/artifacts/simple-design' },
-          { text: 'Incremento', link: '/artifacts/continuous-tests' } 
+          { text: 'Pila del Sprint', link: '/artifacts/sprint-backlog' },
+          { text: 'Incremento', link: '/artifacts/increment' } 
         ]
       },{
         text: 'Eventos',

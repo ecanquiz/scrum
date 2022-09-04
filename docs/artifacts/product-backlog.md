@@ -88,6 +88,71 @@ Normalmente, 2 a 10 palabras.
 
 Por ejemplo: **_“Visualizar historial de transacciones”_**.
 
-D) Esfuerzo que demanda
+## Esfuerzo que demanda
+
+A diferencia de las metodologías tradicionales, Scrum, propone la estimación de esfuerzo y complejidad que demanda el desarrollo de las funcionalidades, solo para aquellas cuyo orden sea prioritario.
+
+Estas estimaciones, no se efectúan sobre items poco prioritarios ni tampoco sobre aquellos donde exista un alto grado de incertidumbre. De esta manera, se evita la pérdida de tiempo en estimaciones irrelevantes, postergándolas para el momento en el cual realmente sea necesario comenzar a desarrollarlas.
+
+>_“El equipo da al Dueño del Producto las estimaciones del esfuerzo requerido para cada elemento de la Pila del Producto. Además, el Dueño del Producto es responsable de asignar una estimación del valor del negocio a cada elemento individual. Esto es normalmente una práctica desconocida para el Dueño del Producto. Por esa razón, a veces el Gestor del Proyecto puede enseñar al Dueño del Producto a hacerlo.”_ (The Scrum Primer, 2009, pág. 8)
+
+## Granulidad de los Items
+
+Los items de la Pila del Producto no necesariamente deben tener una granulidad pareja. Es posible encontrar ítems tales como _"es necesario contar con un módulo de control de stock y logística"_ o uno tan pequeño como _"Modificar el color de fondo de los mensajes de error del sistema, de negro a rojo"_.
+
+>_“... Los Ítems de tan baja granulidad, suelen agruparse en un formato denominado «Historias de Usuario» mientras que los de alta granulidad,
+suelen llamarse «temas». Cuando los elementos de la Pila del Producto han sido preparados con este nivel de granularidad, los que están en la parte
+superior del mismo (los de mayor prioridad, y mayor valor) se descomponen para que quepan en un Sprint...”_ (Scrum Guide, 2008, pág.19)
+
+## Criterios de Aceptación
+
+Es recomendable que cada ítem de la Pila del Producto, especifique cuales son los criterios de aceptación (o prueba de aceptación que debe superar), para considerar cumplido el requisito.
+
+Los criterios de aceptación, entonces, no son más que _“pautas”_ o pequeñas _“reglas”_ que una Historia de Usuario debe respetar para considerarla cumplida.
+
+Por ejemplo, para la Historia de Usuario _«Como administrador del sistema necesito agregar productos al catálogo»_, los criterios de aceptación podrían ser:
+
+- Cada producto debe contener:
+    - código de producto (opcional).
+    - descripción de hasta 500 caracteres (opcional).
+    - precio (obligatorio).
+    - stock inicial (opcional).
+    - un nombre (obligatorio).
+    - una foto (opcional).
+- No pueden existir dos productos con el mismo nombre de producto o código de producto.
+- El nombre del producto jamás puede estar vacío o tener menos de 3 caracteres.
+- Cuando no se asigne un stock inicial al producto, éste debe asignarse automáticamente en cero (sin stock).
+
+>_“... Las Pruebas de Aceptación se utilizan a menudo como un atributo más de la Pila del Producto. A menudo pueden sustituir a descripciones de texto más detalladas, que contengan una descripción comprobable, de lo que el elemento de la Pila del Producto debe hacer cuando esté completado...”_ (Scrum Guide, 2008, pág.19)
+
+## Notas (Observación)
+
+Colocamos cualquier otra información, clarificación, referencia a otras fuentes de información, etc. Normalmente muy breves.
+
+## Campos adicionales del formato
+
+A veces se utiliza campos adicionales en la Pila del Producto, fundamentalmente como comodidad para el Dueño del Producto a la hora de decidir sus prioridades. Dependiendo del tipo de proyecto, funcionamiento del equipo y la organización, pueden ser aconsejables otros campos:
+
+- Persona asignada.
+- N° de Sprint en el que se realiza.
+- Módulo del sistema al que pertenece.
+- Solicitante.
+- Entre otros.
+
+## Los formatos deben ser flexibles
+
+Es preferible no adoptar formatos rígidos, ya que los resultados del agilismo no dependen de las formas, sino de la institucionalización de sus principios y la implementación adecuada a las características de la empresa y del proyecto. He aquí un sencillo ejemplo de Pila del Producto:
+
+|Importancia|Descripción|Esfuerzo|Elaborado por|
+|:-:|:-|:-:|:-:|
+|90|Plataforma tecnológica|XL|A.R.|
+|70|Interfaz de usuario|L|L.M.|
+|60|Un usuario se registra en el sistema|S|C.C.|
+|40|El operador define el flujo y textos de un expediente|S|J.H.|
+|30|xxx|M|A.R.|
+
+Mantenemos esta tabla en una Hoja de Cálculo con _“compartir”_ habilitado (es decir, muchos usuarios pueden editar simultáneamente la hoja). Oficialmente, el Dueño del Producto es el propietario del documento, pero no queremos dejar al resto de usuarios fuera. Muchas veces un desarrollador necesita abrir el documento para clarificar algo o cambiar una estimación de esfuerzo.
+
+Por la misma razón, no se coloca este documento en el repositorio de control de versiones; en vez de eso, lo almacenamos en una unidad de red compartida. Esta ha demostrado ser la manera más simple de permitir múltiples editores diferentes sin causar problemas de bloqueo o fusión de documentos. Sin embargo, casi todos los demás artefactos se colocan en el repositorio de control de versiones.
 
 
