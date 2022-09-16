@@ -66,7 +66,7 @@ export default {
         collapsible: true,
         collapsed: true,      
         items: [
-          { text: 'Garantías de resultados', link: '/events/intro' },
+          { text: 'Los Eventos', link: '/events/intro' },
           { text: 'Planificación del Sprint', link: '/events/planning' },
           { text: 'Apertura Diaria', link: '/events/short-releases' },
           { text: 'Sprint', link: '/events/metaphorical-system' },
