@@ -67,7 +67,7 @@ export default {
         collapsed: true,      
         items: [
           { text: 'Los Eventos', link: '/events/intro' },
-          { text: 'Planificación del Sprint', link: '/events/planning' },
+          { text: 'Planificación del Sprint', link: '/events/sprint-planning' },
           { text: 'Apertura Diaria', link: '/events/short-releases' },
           { text: 'Sprint', link: '/events/metaphorical-system' },
           { text: 'Revisión', link: '/events/simple-design' },
