@@ -70,8 +70,8 @@ export default {
           { text: 'Planificación del Sprint', link: '/events/sprint-planning' },
           { text: 'Apertura Diaria', link: '/events/daily-opening' },
           { text: 'Sprint', link: '/events/sprint' },
-          { text: 'Revisión', link: '/events/simple-design' },
-          { text: 'Retrospectiva', link: '/events/continuous-tests' }
+          { text: 'Revisión del Sprint', link: '/events/sprint-review' },
+          { text: 'Retrospectiva del Sprint', link: '/events/continuous-tests' }
         ]
       }
     ]
