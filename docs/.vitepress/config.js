@@ -71,7 +71,7 @@ export default {
           { text: 'Apertura Diaria', link: '/events/daily-opening' },
           { text: 'Sprint', link: '/events/sprint' },
           { text: 'Revisión del Sprint', link: '/events/sprint-review' },
-          { text: 'Retrospectiva del Sprint', link: '/events/continuous-tests' }
+          { text: 'Retrospectiva del Sprint', link: '/events/sprint-retrospective' }
         ]
       }
     ]

@@ -2,8 +2,7 @@
 
 >Los Eventos son: los Sprint más las Ceremonias.
 
-Para hacer una introducción al modelo comenzaremos con una visión general de lo que se desea obtener, y a partir de ello se especifica y da detalle a
-las partes de mayor prioridad, y que se desean tener cuanto antes.
+Para hacer una introducción al modelo comenzaremos con una visión general de lo que se desea obtener, y a partir de ello se especifica y da detalle a las partes de mayor prioridad, y que se desean tener cuanto antes.
 
 Cada ciclo de desarrollo o iteración (Sprint) finaliza con la entrega de una parte operativa del producto (incremento). La duración de cada Sprint puede ser desde una hasta seis semanas, aunque se recomienda que no excedan de un mes.
 

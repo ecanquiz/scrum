@@ -1,4 +1,6 @@
-# Introducción
+# Los Pilares
+
+## Introducción
 
 La agilidad se basa en un conjunto de valores y principios, por ende los marcos ágiles que parten de este concepto también se crearon basándose en este postulado. SCRUM particularmente promueve tres pilares básicos y todos los proyectos que se trabajan con este framework deberían impulsarlo.
 
