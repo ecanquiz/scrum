@@ -1,13 +1,16 @@
-export default {
+import { defineConfig } from 'vitepress'
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
   title: 'SCRUM',
   description: 'Métodología Ágil',
   base: '/scrum/', //  The default path during deployment / secondary address / base can be used/
   themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Inicio', link: '/' },      
+      { text: 'Inicio', link: '/' },           
       { text: 'Comenzar', link: '/start/intro' },
-      { text: 'CaribesTIC', link: 'https://caribestic.github.io/' },
-      { text: 'GitHub', link: 'https://github.com/CaribesTIC/scrum' }      
+      { text: 'CaribesTIC', link: 'https://caribestic.github.io/' }, 
     ],
     sidebar: [
       {
@@ -74,6 +77,9 @@ export default {
           { text: 'Retrospectiva del Sprint', link: '/events/sprint-retrospective' }
         ]
       }
+    ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/CaribesTIC/scrum' }
     ]
   }
-}
+})
