@@ -1,13 +1,10 @@
 {
-  "name": "scrum",
-  "version": "1.0.0",
-  "description": "SCRUM",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.65"
+  },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
-  },
-  "dependencies": {
-    "vitepress": "^1.0.0-alpha.20",
-    "vue": "^3.2.37"  }
+    "docs:preview": "vitepress preview docs"
+  }
 }
