@@ -7,10 +7,12 @@ export default defineConfig({
   base: '/scrum/', //  The default path during deployment / secondary address / base can be used/
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/mylogo.png',  
+    siteTitle: 'SCRUM',
     nav: [
       { text: 'Inicio', link: '/' },           
       { text: 'Comenzar', link: '/start/intro' },
-      { text: 'CaribesTIC', link: 'https://caribestic.github.io/' }, 
+      { text: 'ecanquiz', link: 'https://ecanquiz.github.io/' }, 
     ],
     sidebar: [
       {
@@ -79,7 +81,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/CaribesTIC/scrum' }
+      { icon: 'github', link: 'https://github.com/ecanquiz/scrum' }
     ]
   }
 })
